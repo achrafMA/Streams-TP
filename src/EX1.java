@@ -45,7 +45,7 @@ public class EX1 {
                 .forEach(System.out::println);
 
         System.out.println("*****--Q7--*****");
-        AtomicInteger counter =new AtomicInteger(0);
+
         mots.stream().map(mot->new StringBuilder(mot).append(-mots.indexOf(mot))).forEach(System.out::println);
 
     }
